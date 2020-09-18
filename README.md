@@ -3,7 +3,7 @@
 
 Technologies used:
 - Retrofit to wrap api call.
-- Repository object uses suspend function to make call. 
+- Repository object uses suspend function used in Kotlin coroutines. 
 - SimpleXmlConverter for tagged model objects. (though deprecated, seems to be the best option). 
 - Glide used to load images without blocking main thread. 
 - ViewModel shared between multiple fragments of same activity
