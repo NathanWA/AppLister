@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/BListFragment">
+
+
+    <fragment
+        android:id="@+id/BListFragment"
+        android:name="com.nathan.bblister.ui.main.fragments.BListFragment"
+        android:label="Product Listing"
+        tools:layout="@layout/fragment_b_list">
+        <argument
+            android:name="index"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_BListFragment_to_BDetailFragment"
+            app:destination="@id/BDetailFragment"
+            app:popUpTo="@id/BListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/BDetailFragment"
+        android:name="com.nathan.bblister.ui.main.fragments.BDetailFragment"
+        android:label="Product Listing"
+        tools:layout="@layout/fragment_b_detail" />
+</navigation>
