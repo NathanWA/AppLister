@@ -12,11 +12,11 @@ Technologies used:
 - Data binding used in detail fragment - binds to Ad object. 
 
 Data displayed:
-Display thumbnail, name, and description, as well as category. 
-Rating shown using either android rating bar (in list) or custom image (on detail page)
-Impressionurl assumed to be a blank image for tracking purposes - shown on detail page. 
-Button opens proxyurl
-Link opens to privacy policy if available, otherwise toasts warning. 
-Remaining data items shown in a list. 
+- Display thumbnail, name, and description, as well as category. 
+- Rating shown using either android rating bar (in list) or custom image (on detail page)
+- Impressionurl assumed to be a blank image for tracking purposes - shown on detail page. 
+- Button opens proxyurl
+- Link opens to privacy policy if available, otherwise toasts warning. 
+- Remaining data items shown in a list. 
 
 
