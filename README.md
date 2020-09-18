@@ -7,6 +7,7 @@ Technologies used:
 - SimpleXmlConverter for tagged model objects. (though deprecated, seems to be the best option). 
 - Glide used to load images without blocking main thread. 
 - ViewModel shared between multiple fragments of same activity
+- LiveData objects on ViewModel are observed by fragments
 - Navigation component between multiple fragments - also allows for back button or arrow navigation. 
 - Recyclerview used on listing screen - adapter binds to Ads object 
 - Data binding used in detail fragment - binds to Ad object. 
