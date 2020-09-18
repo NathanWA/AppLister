@@ -10,6 +10,7 @@ Technologies used:
 - Navigation component between multiple fragments - also allows for back button or arrow navigation. 
 - Recyclerview used on listing screen - adapter binds to Ads object 
 - Data binding used in detail fragment - binds to Ad object. 
+- One unit test used to check and debug function of Repository call.  
 
 Data displayed:
 - Display thumbnail, name, and description, as well as category. 
