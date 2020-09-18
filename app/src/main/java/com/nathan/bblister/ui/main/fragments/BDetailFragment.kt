@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -47,6 +48,10 @@ class BDetailFragment : Fragment() {
                 val i = Intent(Intent.ACTION_VIEW)
                 i.data = Uri.parse(url)
                 startActivity(i)
+            }
+            else
+            {
+                Toast.makeText(requireContext(),getString(R.string.no_privacy_policy),Toast.LENGTH_LONG).show()
             }
         }
     }
