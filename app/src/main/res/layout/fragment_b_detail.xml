@@ -92,24 +92,23 @@
         <ImageView
             android:id="@+id/imageViewImpressionUrl"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="10dp"
             android:layout_marginTop="16dp"
-            android:contentDescription="Space to show impressions"
+            android:contentDescription="@string/space_to_show_impressions"
             app:imageUrl="@{viewModel.selectedProduct.impressionTrackingURL}"
-
 
 
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textViewDescription"
             tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
         <ImageView
             android:id="@+id/imageViewRatingUrl"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="60dp"
             android:layout_marginTop="16dp"
             android:contentDescription="@string/space_to_show_impressions"
             app:imageUrl="@{viewModel.selectedProduct.averageRatingImageURL}"
-
 
 
             app:layout_constraintStart_toStartOf="parent"
