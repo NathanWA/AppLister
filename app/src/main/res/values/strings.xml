@@ -12,6 +12,7 @@
     <string name="product_thumbnail">Product Thumbnail</string>
     <string name="see_privacy_policy">See Privacy Policy</string>
     <string name="other_data">Other Data:</string>
+    <string name="no_privacy_policy">No privacy Policy available</string>
     <string name="space_to_show_impressions">Space to show impressions</string>
 
 </resources>
